@@ -3,6 +3,8 @@ from distutils.command.build_ext import build_ext  # type:ignore
 from Cython.Build import cythonize
 
 
+print("To buildando hein")
+
 def build(setup_kwargs):
     setup_kwargs.update(
         {
